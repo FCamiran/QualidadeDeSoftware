@@ -28,4 +28,9 @@ int main(){
     printf("maior informcao contida na fila: %d ",info);
 
 
+    inverterFila(pFilaInt);
+    info = desenfileirarInfo(pFilaInt);
+    printf("\nRetirou o inteiro = %d \n, *((int*)info));
+     
+
 }
